@@ -1,0 +1,8 @@
+public class Facebook extends Notification
+ {
+    @Override
+	public void sendNotification()
+	{
+		System.out.println("Notification was Send ...FaceBook");
+	}    
+}
