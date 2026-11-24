@@ -1,0 +1,22 @@
+                        Java OOPs With Exception LLD Project — Parking Lot Management System
+
+A driver arrives with a car or a bike. The parking lot assigns a free spot and issues a ticket. When the driver leaves, 
+the system calculates the fee, closes the ticket, and frees the spot for the next vehicle.
+
+1. Requirements
+- Park a car or bike in an available spot.
+- Reject a vehicle that is already parked or when the lot is full.
+- Charge ₹40 per hour for a car and ₹20 per hour for a bike. Round partial hours up, with a minimum charge of one hour.
+- Free the spot when the driver exits. Reject a ticket that has already been used.
+
+
+2. Class design
+
+Class	                         Responsibility
+Vehicle	:-                    Stores the registration number and defines calculateParkingFee()
+Car, Bike	:-                  Implement their own parking rates
+ParkingSpot	:-                Stores the vehicle currently occupying a numbered spot
+ParkingTicket :-             	Records the ticket ID, spot number, and entry time
+ParkingLot :-               	Assigns spots, tracks active tickets, and handles exits
+
+3. @Pradhum Kumar...
