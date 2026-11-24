@@ -10,7 +10,7 @@ public class ArrayList1 {
  * Multiple Null 
  * Duplicate Value 
  * Allowed All
- * @param args
+ * 
  */
 	public static void main(String[] args)
 	{
