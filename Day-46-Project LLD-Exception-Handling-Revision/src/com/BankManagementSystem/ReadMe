@@ -1,0 +1,35 @@
+
+Real-life scenario:
+
+Suppose a customer wants to withdraw money from a bank account.
+
+The system should handle these situations:
+1. Account does not exist.
+2. Insufficient balance.
+3. Invalid withdrawal amount.
+4. Account is blocked.
+5. Successful withdrawal.
+
+
+We will use:
+- Encapsulation
+- Inheritance
+- Abstraction
+- Custom Exceptions
+- try-catch-finally
+- throw and throws
+
+
+
+We created BankException as a parent class to manage all bank-related exceptions in one place.
+For example:
+- InsufficientBalanceException
+- InvalidAmountException
+- AccountNotFoundException
+All these exceptions can inherit from BankException.
+
+
+did we use extends BankException?
+We use extends to achieve inheritance.
+It allows child exception classes to inherit the properties and behavior of the parent exception class.
+
